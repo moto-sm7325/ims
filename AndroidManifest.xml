@@ -49,6 +49,5 @@
         <uses-library android:name="qti-telephony-utils"/>
         <uses-library android:name="ims-ext-common"/>
         <uses-library android:name="moto-telephony"/>
-        <uses-library android:name="moto-ims-ext"/>
     </application>
 </manifest>
