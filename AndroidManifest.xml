@@ -48,7 +48,6 @@
         </service>
         <service android:enabled="true" android:exported="true" android:name=".QtiImsExtService" android:permission="com.qti.permission.BIND_QTI_IMS_SERVICE" android:singleUser="true"/>
         <uses-library android:name="moto-telephony"/>
-        <uses-library android:name="moto-ims-ext"/>
         <uses-library android:name="qti-telephony-hidl-wrapper"/>
         <uses-library android:name="qti-telephony-utils"/>
         <uses-library android:name="ims-ext-common"/>
