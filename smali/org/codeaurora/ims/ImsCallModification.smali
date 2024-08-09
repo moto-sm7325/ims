@@ -179,7 +179,7 @@
 .end method
 
 .method public constructor <init>(Lorg/codeaurora/ims/ImsCallSessionImpl;Landroid/content/Context;Lorg/codeaurora/ims/ImsSenderRxr;Landroid/os/Looper;)V
-    .locals 3
+    .locals 4
     .param p1, "imsCallSessionImpl"    # Lorg/codeaurora/ims/ImsCallSessionImpl;
     .param p2, "context"    # Landroid/content/Context;
     .param p3, "senderRxr"    # Lorg/codeaurora/ims/ImsSenderRxr;

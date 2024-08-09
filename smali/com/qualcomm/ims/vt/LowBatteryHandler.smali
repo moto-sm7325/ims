@@ -101,7 +101,7 @@
 .end method
 
 .method private constructor <init>(Ljava/util/List;Landroid/content/Context;)V
-    .locals 3
+    .locals 4
     .param p2, "context"    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -150,9 +150,9 @@
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    const/4 v2, 0x2
+    const/4 v3, 0x2
 
-    invoke-virtual {p2, v0, v1, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+    invoke-virtual {p2, v0, v1, v3}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
 
     .line 49
     return-void
